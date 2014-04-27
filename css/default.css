@@ -1,0 +1,170 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+ *,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body,
+html {
+    padding: 0;
+    margin: 0;
+    background-color: #3BB0F0;
+}
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+body,
+button {
+    font-family: Montserrat-Regular, Arial, sans-serif;
+    color: #fff;
+    font-size: 1.1em;
+    -webkit-transition: font-size 0.3s;
+    -moz-transition: font-size 0.3s;
+    transition: font-size 0.3s;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    border-bottom: 2px solid #9BD7F7;
+    padding: 0 3px 2px;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+}
+a:hover,
+a:focus {
+    padding: 0 3px 5px;
+    border-width: 3px;
+    color: #CDEBFB;
+}
+.container {
+    width: 100%;
+    min-width: 255px;
+    margin: 0 auto;
+    padding: 1.875em;
+    -webkit-transition: padding 0.3s, width 0;
+    -moz-transition: padding 0.3s, width 0;
+    transition: padding 0.3s, width 0.3s;
+}
+.container > header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    font-weight: normal;
+    text-align: center;
+    -webkit-transition: margin 0.3s;
+    -moz-transition: margin 0.3s;
+    transition: margin 0.3s;
+    background: url(../img/HannahDLogo.svg) no-repeat top center;
+    background-size: contain;
+    text-indent: -9999px;
+}
+.no-svg .container > header h1 {
+    /* TODO: PNG FALLBACK */
+}
+.container > header h2 {
+    font-size: 1em;
+    margin: 1em 0 1.3em;
+    line-height: 1.4;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    -webkit-transition: margin 0.3s;
+    -moz-transition: margin 0.3s;
+    transition: margin 0.3s;
+}
+.contents ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.contents h3 {
+    font-size: .85em;
+    color: #CDEBFB;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: .6em 0 .4em;
+    text-align: center;
+    -webkit-transition: margin 0.3s;
+    -moz-transition: margin 0.3s;
+    transition: margin 0.3s;
+}
+.navigation li button {
+    width: 100%;
+    background: transparent;
+    display: inline-block;
+    margin-bottom: 8px;
+    padding: .2em .8em;
+    border: 2px solid #9BD7F7;
+    border-radius: 3px;
+    -webkit-transition: border 0.3s;
+    -moz-transition: border 0.3s;
+    transition: border 0.3s;
+}
+.navigation li button:hover,
+.navigation li button:focus {
+    border-color: #fff;
+    cursor: pointer;
+    outline: none
+}
+.navigation li small {
+    display: none;
+    color: #B2E0F9;
+    font-size: .8em;
+}
+@media only screen and (min-width: 30em) {
+    .container > header h1 {
+        margin-top: .4em;
+        margin-left: -20px;
+        background-position: top left;
+        font-size: 3.5em
+    }
+    .container > header h1,
+    .container > header h2,
+    .contents h3 {
+        text-align: left;
+    }
+    .navigation li small {
+        display: inline;
+    }
+    .navigation li button {
+        width: auto;
+        text-align: left;
+    }
+}
+@media only screen and (min-width: 48em) {
+    body {
+        font-size: 1.2em;
+    }
+    .container {
+        width: 90%;
+    }
+}
+@media only screen and (min-width: 68.75em) {
+    .container > header h1 {
+        margin-top: 1em;
+    }
+}
+@media only screen and (min-width: 81.25em) {
+    body {
+        font-size: 1.5em;
+    }
+    .container > header h1 {
+        margin-top: 1.5em;
+    }
+    .container > header h2 {
+        margin: .8em 0 2em;
+    }
+    .contents h3 {
+        margin: 2em 0 .8em;
+    }
+}
