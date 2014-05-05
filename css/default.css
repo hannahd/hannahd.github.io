@@ -1,3 +1,4 @@
+/* FONTS */
 @import url(http://fonts.googleapis.com/css?family=Montserrat);
  *,
 *:after,
@@ -6,6 +7,49 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+@font-face {
+	font-family: 'hd_icons';
+	src: url('../fonts/hd_icons.eot');
+}
+@font-face {
+	font-family: 'hd_icons';
+	src: url('../fonts/hd_icons.ttf') format('truetype'),
+		 url('../fonts/hd_icons.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon {
+	font-family: 'hd_icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-close:before {
+	content: "\e600";
+}
+.icon-key-left:before {
+	content: "\e601";
+}
+.icon-key-right:before {
+	content: "\e602";
+}
+.icon-left:before {
+	content: "\e603";
+}
+.icon-right:before {
+	content: "\e604";
+}
+
+
+/* MAIN */
 body,
 html {
     padding: 0;
@@ -98,6 +142,10 @@ a:focus {
     -moz-transition: margin 0.3s;
     transition: margin 0.3s;
 }
+
+.navigation li{
+    display: inline;
+}
 .navigation li button {
     width: 100%;
     background: transparent;
@@ -110,6 +158,7 @@ a:focus {
     -moz-transition: border 0.3s;
     transition: border 0.3s;
 }
+
 .navigation li button:hover,
 .navigation li button:focus {
     border-color: #fff;
@@ -120,6 +169,75 @@ a:focus {
     display: none;
     color: #B2E0F9;
     font-size: .8em;
+}
+
+.slideshow section{
+    padding:1.5em;
+}
+
+.slideshow section figure{
+    height:260px;
+    overflow:hidden;
+    margin: -1.5em -1.5em 1.5em -1.5em;
+}
+.slideshow section figure img{
+    display:none;
+}
+.slideshow section figure img.primary{
+    display:block;
+    width:100%;
+}
+
+.slideshow section h2{
+    text-align:left;
+    font-size: 2em;
+    color: #3BB0F0;
+    line-height: 1;
+    text-transform: none;
+    margin:0;
+}
+
+.slideshow section h3{
+    text-align:left;
+    font-size: 1.3em;
+    color: #434343;
+    line-height: 1.2;
+    text-transform: none;
+}
+
+.slideshow section p{
+    font-size: .9em;
+    color: #626262;
+    line-height: 1.45;
+    letter-spacing: 0px;
+}
+
+.slideshow section h5{
+    text-align:left;
+    font-size: 1em;
+    color: #3BB0F0;
+    line-height: 1.6;
+    text-transform: uppercase;
+    margin:0;
+}
+
+.slideshow section aside ul{
+    list-style: none;
+    margin: 6px 0 12px;
+    padding: 0;
+}
+.slideshow section aside li{
+    font-size: .9em;
+    color:#626262;
+    display:block;
+    position:static;
+    visibility: visible;
+    opacity:1;
+    margin:8px 0;
+}
+
+.slideshow section aside li:after{
+    background:transparent;
 }
 @media only screen and (min-width: 30em) {
     .container > header h1 {
