@@ -67,7 +67,7 @@ html {
     clear: both;
 }
 body,
-button {
+button{
     font-family: Montserrat-Regular, Arial, sans-serif;
     color: #fff;
     font-size: 1.1em;
@@ -136,11 +136,12 @@ a:focus {
     color: #CDEBFB;
     font-weight: normal;
     text-transform: uppercase;
-    margin: .6em 0 .4em;
+    margin: 1.6em 0 .4em;
     text-align: center;
     -webkit-transition: margin 0.3s;
     -moz-transition: margin 0.3s;
     transition: margin 0.3s;
+
 }
 
 .navigation li{
@@ -172,13 +173,14 @@ a:focus {
 }
 
 .slideshow section{
-    padding:1.5em;
+    padding:1.4em 4em;
 }
 
 .slideshow section figure{
     height:260px;
     overflow:hidden;
-    margin: -1.5em -1.5em 1.5em -1.5em;
+    margin: -1.5em -4em 1.5em;
+    border-bottom:1px solid #eee;
 }
 .slideshow section figure img{
     display:none;
@@ -201,11 +203,12 @@ a:focus {
     text-align:left;
     font-size: 1.3em;
     color: #434343;
-    line-height: 1.2;
+    line-height: 1.4em;
     text-transform: none;
 }
 
 .slideshow section p{
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: .9em;
     color: #626262;
     line-height: 1.45;
@@ -239,6 +242,13 @@ a:focus {
 .slideshow section aside li:after{
     background:transparent;
 }
+
+.slideshow a{
+    color:#3BB0F0;
+    border-bottom-width:0;
+}
+
+
 @media only screen and (min-width: 30em) {
     .container > header h1 {
         margin-top: .4em;
@@ -258,7 +268,10 @@ a:focus {
         width: auto;
         text-align: left;
     }
+
+
 }
+
 @media only screen and (min-width: 48em) {
     body {
         font-size: 1.2em;
@@ -286,3 +299,34 @@ a:focus {
         margin: 2em 0 .8em;
     }
 }
+a.button {
+    font-size: 1.1em;
+    background: transparent;
+    display: inline-block;
+    margin-bottom: 8px;
+    padding: .2em .8em;
+    border: 2px solid #9BD7F7;
+    border-radius: 3px;
+    -webkit-transition: border 0.3s;
+    -moz-transition: border 0.3s;
+    transition: border 0.3s;
+}
+
+a.button:hover,
+a.button:focus {
+    border-color: #fff;
+    cursor: pointer;
+    outline: none;
+    color:#fff;
+}
+
+.navigation a {
+    font-size:1.5em;
+    margin-left: 7px;
+}
+
+.navigation .contact {
+
+}
+
+
