@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Tassel"
+date:   2012-05-01 20:48:46
+categories: webdev projects featured
+---
+
+### Promoting connections through an academic directory framework
+Communication and connection between individuals within an organization is an essential component of success. This is even more true in academic organizations, where collaboration between diverse minds is critical for rich research and innovation.
+
+#### Problem
+In interviews and surveys conducted during the Iowa State HCI website redesign challenge, students, staff and faculty revealed that the directory pages were one of the sole reasons they used the site.  Students used it to look up contact information for professors and peers; faculty used it to find both student and colleague collaborators with given skills and interests; prospective students also use it to find faculty sponsors who have matching research interests.
+
+Though this is a frequently used feature, it is extremely difficult to maintain.  Student and faculty information is contained in separate databases with different management interfaces.  The photos that go with each entry are in a separate system all together.  Individuals email their information at the start of their involvement to a central administrator, who must manually edit this information.  This information is limited to contact information and a short biography if the individual provides one.  This biography is the only way to determine others research interests and skills, something a variety of users talked about doing.
+
+#### Solution
+Tassel is an easily managed, fully searchable academic directory.  Individuals can access and edit their own information, through a module in the site’s content management system, keeping it up to date and relevant.  The administrator can quickly add people, approve changes, and make batch modifications all in one location.  On the site, visitors will be able to search and filter through people, finding the information they desire quickly.
+
+##### Details
+- January - May 2012
+- part of graduate coursework (PHP course)
+
+##### Skills Used
+- Persona and scenarios
+- Competitive review
+- Paper Prototyping
+- PHP & MySQL
+- A/B Testing in UserZoom
