@@ -774,8 +774,8 @@ header {
   .h-wrap .close .lines::before, .h-wrap .close .lines::after {
     top: 0;
     width: 30px;
-    -webkit-transition: top .3s ease,  transform .3s .5s ease;
-    transition: top .3s ease,  transform .3s .5s ease; }
+    -webkit-transition: top .3s ease, transform .3s .5s ease;
+    transition: top .3s ease, transform .3s .5s ease; }
   .h-wrap .close .lines::before {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
