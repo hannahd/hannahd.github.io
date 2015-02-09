@@ -2,7 +2,8 @@
 layout: post
 title:  "Twitter Bubbles"
 date:   2013-04-05 20:48:46
-categories: webdev projects featured
+category: experiment
+tags: webdev projects featured
 ---
 
 #### Emphasizing the lesser heard voices

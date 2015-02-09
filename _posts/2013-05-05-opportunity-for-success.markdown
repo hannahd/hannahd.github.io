@@ -2,7 +2,8 @@
 layout: post
 title:  "Opportunity for Success - Master's Thesis"
 date:   2013-10-05 20:48:46
-categories: writing projects featured
+category: blog
+tags: writing projects featured
 ---
 
 ### Website evaluation and scanning by students with Autism Spectrum Disorders

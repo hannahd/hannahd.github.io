@@ -3,9 +3,15 @@
 }
 
 %padding-regular {
-  padding: $spacing-s;
+  padding-left: $spacing-s;
+  padding-right: $spacing-s;
+  padding-top: $spacing-s;
+  padding-bottom: $spacing-s;
 }
 
 %padding-large {
-  padding: $spacing-m;
+  padding-left: $spacing-m;
+  padding-right: $spacing-m;
+  padding-top: $spacing-m;
+  padding-bottom: $spacing-m;
 }

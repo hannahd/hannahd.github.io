@@ -19,6 +19,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   background-color: $bg-color;
+  margin-top:3.5em;
   @media (max-width: 942px) {
     font-size: $font-size-m;
   }
@@ -33,7 +34,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $variant-family;
 }
 
 h1 {
@@ -58,7 +59,7 @@ h4 {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 3px;
-  margin: $spacing-l 0 $spacing-xs;
+  margin: $spacing-s 0 $spacing-xs;
   color: lighten($text-color, 40%);
 }
 

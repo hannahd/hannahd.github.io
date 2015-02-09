@@ -2,7 +2,8 @@
 layout: post
 title:  "Tassel"
 date:   2012-05-01 20:48:46
-categories: webdev projects featured
+category: project
+tags: webdev projects featured
 ---
 
 ### Promoting connections through an academic directory framework

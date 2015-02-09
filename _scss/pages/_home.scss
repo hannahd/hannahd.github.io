@@ -1,4 +1,38 @@
-.posts {
+#case-studies, #experiments, #thoughts{
+  @extend %padding-large;
+  h4{
+    color:white;
+      text-align:center;
+  }
+    ul li {
+        list-style:none;
+        a{
+            color:white;
+            text-align:center;
+        }
+    }
+
+}
+#case-studies{
+    background: $main-color;
+}
+
+#experiments{
+    background: $alt-color;
+
+}
+
+#thoughts{
+    h4{
+        color: $alt-color;
+    }
+    ul li{
+        a{
+            color:$text-color;
+        }
+    }
+}
+/*.posts {
   overflow: hidden;
   li {
     display: inline-block;
@@ -77,4 +111,4 @@
       text-decoration: none;
       background-color: darken($smoke-color, 5%);
   }
-} // end .pagination
+} // end .pagination*/
