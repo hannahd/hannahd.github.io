@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "Opportunity for Success - Master's Thesis"
+title:  "Opportunity for Success"
+tagline: "Master's Thesis"
 date:   2013-10-05 20:48:46
-category: blog
+categories: project blog
 tags: writing projects featured
 ---
 

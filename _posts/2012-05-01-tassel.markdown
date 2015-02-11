@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Tassel"
+tagline: "Academic Connection Framework"
 date:   2012-05-01 20:48:46
-category: project
+categories: project experiment blog
 tags: webdev projects featured
 ---
 

@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Twitter Bubbles"
+tagline: "Emphasizing Quieter Voices"
 date:   2013-04-05 20:48:46
-category: experiment
+categories: project experiment
 tags: webdev projects featured
 ---
 

@@ -10,16 +10,11 @@ title: Homepage
 
 <div id="case-studies">
     <h4>Case Studies</h4>
-    <ul class="posts">
+    <ul class="features">
         {% for post in site.categories.project %}
         <li itemscope itemtype="http://schema.org/BlogPosting">
             <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">
-                <div class="p-wrap">
-                    <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-                        {{ post.date | date_to_string }}
-                    </time>
-                    <p itemprop="name headline">{{ post.title }}</p>
-                </div>
+                    <p itemprop="name headline">{{ post.title }} <small><br/>{{ post.tagline }}</small></p>
             </a>
         </li>
         {% endfor %}
@@ -28,16 +23,10 @@ title: Homepage
 
 <div id="experiments">
     <h4>Experiments</h4>
-    <ul class="posts">
+    <ul class="features">
         {% for post in site.categories.experiment %}
         <li itemscope itemtype="http://schema.org/BlogPosting">
-            <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">
-                <div class="p-wrap">
-                    <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-                        {{ post.date | date_to_string }}
-                    </time>
-                    <p itemprop="name headline">{{ post.title }}</p>
-                </div>
+            <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url"><p itemprop="name headline">{{ post.title }}<small><br/>{{ post.tagline }}</small></p>
             </a>
         </li>
         {% endfor %}
@@ -50,14 +39,11 @@ title: Homepage
     <ul class="posts">
         {% for post in site.categories.blog %}
         <li itemscope itemtype="http://schema.org/BlogPosting">
-            <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">
-                <div class="p-wrap">
-                    <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+            <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url"><p itemprop="name headline">{{ post.title }}</p></a>
+            <p class="description">{{ post.tagline }}</p>
+            <p class="time"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
                         {{ post.date | date_to_string }}
-                    </time>
-                    <p itemprop="name headline">{{ post.title }}</p>
-                </div>
-            </a>
+                    </time></p>
         </li>
         {% endfor %}
     </ul>

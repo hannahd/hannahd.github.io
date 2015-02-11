@@ -5,10 +5,10 @@ $alt-color:         #2c3e50;  // dark blue
 $bg-color:          white;    // background color
 
 $text-color:        #333;     // dark grey
-$subtle-text-color: #bdc3c7;  // light grey
+$subtle-text-color: #aab2b7;  // light grey
 $link-color:        $main-color;
 $border-color:      #e0e1e6;
-$smoke-color:       #fafafa;
+$smoke-color:       rgba(250, 250, 250, 0.12);
 
 
 // Typography
@@ -17,7 +17,8 @@ $font-family:       'Lora', Georgia, serif;
 $variant-family:    'Lato', 'Helvetica Neue', Arial, sans-serif;
 $font-size-l:       1.25em;             // font-size on desktop type screens
 $font-size-m:       $font-size-l * 0.9; // font-size under 942px wide screens
-$font-size-s:       $font-size-l * 0.7; // font-size under 642px wide screens
+$font-size-s:       $font-size-l * 0.7; // font-size under 642px wide screen
+$font-size-xs:       $font-size-l * 0.5;
 
 
 // Spacings
@@ -29,3 +30,5 @@ $spacing-m:         $spacing-sm + $spacing-xs;
 $spacing-ml:        $spacing-m + $spacing-xs;
 $spacing-l:         $spacing-ml + $spacing-s;
 $spacing-xl:        $spacing-l + $spacing-s;
+
+$feature-height:    9em;

@@ -1,17 +1,10 @@
 #case-studies, #experiments, #thoughts{
-  @extend %padding-large;
+  padding: 3em 2em;
   h4{
-    color:white;
+      color:white;
       text-align:center;
+      margin: 0 0 2em;
   }
-    ul li {
-        list-style:none;
-        a{
-            color:white;
-            text-align:center;
-        }
-    }
-
 }
 #case-studies{
     background: $main-color;
@@ -26,12 +19,95 @@
     h4{
         color: $alt-color;
     }
-    ul li{
-        a{
-            color:$text-color;
+}
+
+
+.features {
+    text-align:center;
+
+    li {
+        display: inline-block;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        width: $feature-height+1;
+        height: $feature-height;
+        list-style:none;
+        margin-right: 1em;
+        margin-bottom: 1em;
+
+        a {
+            @extend %transition;
+            color:white;
+            text-align:center;
+            text-decoration: none;
+            height:100%;
+            width:100%;
+            display: block;
+            line-height: $feature-height;
+            small{
+                @extend %transition;
+                opacity:0;
+                font: $font-size-xs $variant-family;
+            }
+            &:hover{
+                background:$smoke-color;
+
+                small{
+                    opacity:.8;
+                }
+            }
+
+            p {
+                margin:0;
+                display: inline-block;
+                vertical-align: middle;
+                line-height: normal;
+            }
         }
     }
 }
+
+.posts{
+    width:$feature-height * 4;
+    margin: 0 auto;
+
+    li {
+        display: block;
+        text-align:left;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        width: 100%;
+        list-style:none;
+        margin: 0.5em 0 2em;
+
+        a {
+            @extend %transition;
+            text-decoration: none;
+            display: inline-block;
+
+                    font-size: $font-size-l;
+            color:$alt-color;
+
+            &:hover{
+                color:$main-color;
+            }
+        }
+            p {
+                margin:0;
+                &.description{
+                    font-size: 1em;
+                }
+                &.time{
+                    padding-top: 0.3em;
+                    font-style:italic;
+                    font-size: .8em;
+                    color: $subtle-text-color;
+                }
+            }
+    }
+
+
+}
+
+
 /*.posts {
   overflow: hidden;
   li {
