@@ -1,7 +1,12 @@
 header {
   width: 100%;
-  background: $bg-color;
   @extend %padding-large;
+  background-image: url('../assets/img/hannahd_x2.png');
+  background-size: 89px 99px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  margin-top: 4.5em;
+  padding: 105px 0 4em;
 }
 
 #home{

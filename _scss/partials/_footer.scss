@@ -7,4 +7,11 @@ footer {
   font-size: .8em;
   font-style: italic;
   color: $subtle-text-color;
+
+    hr{
+        border: 0;
+        height: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.08);
+        margin: 0 40% 2em;
+    }
 }

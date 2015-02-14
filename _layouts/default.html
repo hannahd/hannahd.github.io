@@ -3,7 +3,10 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
+  <head profile="http://www.w3.org/2005/10/profile">
+      <link rel="icon"
+        type="image/x-icon"
+        href="{{ site.baseurl| split: '/' | join:'/' }}/assets/img/favicon.ico">
       <title>{{ site.name }}</title>
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -25,6 +28,7 @@
       </main>
 
       <footer>
+          <hr>
           <p>
               This is the portfolio of <a href="{{ site.baseurl | split:'/' | join:'/' | append:'/'  }}">Hannah Deering</a>, a UX &amp; interaction designer in Iowa. <br>
               You can get in touch via <a href="http://twitter.com/{{ site.twitter }}">Twitter</a>, follow her thoughts on <a href="https://medium.com/@{{ site.twitter }}">Medium</a>, or peak at her prototypes on <a href="https://github.com/{{ site.github }}">GitHub</a>.

@@ -33,6 +33,27 @@
         list-style:none;
         margin-right: 1em;
         margin-bottom: 1em;
+        position:relative;
+
+        &:after{
+            content:"\2022";
+            display:block;
+            position:absolute;
+            top: -.63em;
+            right: -.3em;
+            color: rgba(255, 255, 255, 0.5);
+            font-size: .75em;
+        }
+        &:before{
+          content:"\2022";
+          display:block;
+          position:absolute;
+          top: -.63em;
+          left: -.3em;
+          color: rgba(255, 255, 255, 0.5);
+            font-size: .75em;
+        }
+
 
         a {
             @extend %transition;
@@ -43,6 +64,7 @@
             width:100%;
             display: block;
             line-height: $feature-height;
+            position:relative;
             small{
                 @extend %transition;
                 opacity:0;
@@ -54,6 +76,26 @@
                 small{
                     opacity:.8;
                 }
+            }
+            &:after{
+              content:"\2022";
+              display:block;
+              position:absolute;
+              bottom:-.6em;
+              right:-.3em;
+              line-height: 1em;
+              color: rgba(255, 255, 255, 0.5);
+                font-size: .75em;
+            }
+            &:before{
+              content:"\2022";
+              display:block;
+              position:absolute;
+              bottom:-.6em;
+              left:-.3em;
+              line-height: 1em;
+              color: rgba(255, 255, 255, 0.5);
+              font-size: .75em;
             }
 
             p {
