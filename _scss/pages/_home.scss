@@ -65,6 +65,7 @@
             display: block;
             line-height: $feature-height;
             position:relative;
+            border-bottom-width: 0;
             small{
                 @extend %transition;
                 opacity:0;

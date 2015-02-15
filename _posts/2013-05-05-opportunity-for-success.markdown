@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Opportunity for Success"
-tagline: "Master's Thesis"
+title:  "Accessibility Study"
+tagline: "Autism & Digital Literacy"
 date:   2013-10-05 20:48:46
-categories: project blog
+categories: project
 tags: writing projects featured
 ---
 

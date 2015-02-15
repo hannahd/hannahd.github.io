@@ -90,7 +90,12 @@ ol li { list-style-type: decimal; }
 
 a {
   color: $link-color;
+  text-decoration: none;
+
+
+
   &:hover {
-    color: $text-color;
+    color: darken($link-color, 20%);
+    border-bottom:1px solid darken($link-color, 20%);
   }
 }
