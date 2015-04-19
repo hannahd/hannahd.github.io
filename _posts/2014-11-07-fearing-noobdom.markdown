@@ -7,6 +7,8 @@ categories: blog
 tags: education
 ---
 
+<small>_Originally published on [Medium](https://medium.com/@hannahd_ux/fearing-n00bdom-517d96abe5e2)._</small>
+
 Much [has been said][1] of [the merits][2] of being a “[lifelong learner][3],” especially in a world as rapidly evolving as technology. The phrase itself conveys images of gentle silver-haired retirees easing themselves behind wooden desks to drink up esoteric knowledge in field they always longed to pursue. The scenes in our minds eye are serene, beautiful, enlightened. The truth is rarely so pristine.
 
 > Learning is ugly.
@@ -15,7 +17,7 @@ Building a skill or comprehending truly novel knowledge is is a bumpy and diffic
 
 Children on the other hand are complete beginners at just about everything. As I was digging through old boxes of my childhood projects and trinkets, I was struck by the variety of activities I explored. We accept and encourage the novice outputs of kids, exalting drawings like the one below to refrigerator galleries.
 
-<a href="{{ site.url }}/assets/img/child-drawing.jpg" data-lightbox="noobdom" data-title="Source: http://elephantaday.blogspot.com/2012/07/elephant-no-293-drawing-like-child.html">![Childlike Drawing]({{ site.url }}/assets/img/child-drawing.jpg)</a><br>
+<a href="{{ site.url }}/assets/img/child-drawing.png" data-lightbox="noobdom" data-title="Source: http://elephantaday.blogspot.com/2012/07/elephant-no-293-drawing-like-child.html">![Childlike Drawing]({{ site.url }}/assets/img/child-drawing.png)</a><br>
 <small>_[Source][6]_</small>
 
 But what if I told you that drawing was done by a 30 year old? You might laugh, but why? What if she had just as much experience drawing as a four year old? As we get older, society’s acceptance of our stumbling novice attempts at new skills diminishes significantly. It becomes something to mock rather than nourish, eroding confidence just as it buds.
