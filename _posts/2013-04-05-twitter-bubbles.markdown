@@ -4,7 +4,7 @@ title:  "Twitter Bubbles"
 tagline: "Emphasizing Quieter Voices"
 subtitle: "Emphasizing the lesser heard voices"
 date:   2013-04-05 20:48:46
-categories: project experiment
+categories: project
 tags: webdev projects featured
 ---
 

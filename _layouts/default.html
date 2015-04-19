@@ -15,6 +15,10 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
       <link href="//fonts.googleapis.com/css?family=Lato:400,300,700|Lora:400,700,400italic" rel="stylesheet" type="text/css">
       <link rel="stylesheet" type="text/css" href="{{ site.baseurl| split: '/' | join:'/' }}/css/main.css" />
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet" />
+      <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" />
+
+
       <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Site ATOM Feed">
   </head>
 
@@ -38,6 +42,8 @@
     </div>
 
     <script src="{{ site.baseurl }}/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"></script>
 
     {% comment %} Google Analytics {% endcomment %}
     {% if site.ga_tracking_id %}

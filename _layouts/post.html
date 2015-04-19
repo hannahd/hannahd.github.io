@@ -18,16 +18,21 @@ layout: default
     <div itemprop="articleBody">
       {{ content }}
     </div>
-
+      <div id="nav-btns">
     {% if page.next %}
       <a rel="next" href="{{ site.baseurl }}{{ page.next.url }}" id="next">
         <span class="nav-title nav-title-next">newer</span> &rarr;
       </a>
     {% endif %}
+
     {% if page.previous %}
       <a rel="prev" href="{{ site.baseurl }}{{ page.previous.url }}" id="prev">
         &larr; <span class="nav-title nav-title-prev">older</span>
       </a>
     {% endif %}
+      <a href="{{ site.url }}" id="home">
+        <i class="icon ion-android-home"></i> <span class="nav-title nav-title-next">home</span>
+      </a>
+          </div>
   </article>
 </section>

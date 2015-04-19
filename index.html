@@ -8,6 +8,7 @@ title: Homepage
     <h3>I transform innovative ideas into delightful&nbsp;products.</h3>
 </header>
 
+{% if site.categories.project %}
 <div id="case-studies">
     <h4>Case Studies</h4>
     <ul class="features">
@@ -20,7 +21,9 @@ title: Homepage
         {% endfor %}
     </ul>
 </div>
+{% endif %}
 
+{% if site.categories.experiment %}
 <div id="experiments">
     <h4>Experiments</h4>
     <ul class="features">
@@ -32,8 +35,9 @@ title: Homepage
         {% endfor %}
     </ul>
 </div>
+{% endif %}
 
-
+{% if site.categories.blog %}
 <div id="thoughts">
     <h4>Thoughts</h4>
     <ul class="posts">
@@ -48,3 +52,4 @@ title: Homepage
         {% endfor %}
     </ul>
 </div>
+{% endif %}
