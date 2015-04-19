@@ -2,12 +2,12 @@
 layout: post
 title:  "Tassel"
 tagline: "Academic Connection Framework"
+subtitle: "Promoting connections through an academic directory framework"
 date:   2012-05-01 20:48:46
 categories: project experiment blog
 tags: webdev projects featured
 ---
 
-### Promoting connections through an academic directory framework
 Communication and connection between individuals within an organization is an essential component of success. This is even more true in academic organizations, where collaboration between diverse minds is critical for rich research and innovation.
 
 #### Problem
