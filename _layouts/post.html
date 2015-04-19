@@ -6,7 +6,7 @@ layout: default
   <article itemscope itemtype="http://schema.org/BlogPosting">
     <div class="post-header">
         <h2 class="page-title" itemprop="name headline">{{ page.title }}</h2>
-      <h4>{{ page.tagline }}</h4>
+      <h4>{{ page.subtitle }}</h4>
       <p class="post-meta">
         by <a href="{{ site.baseurl | split:'/' | join:'/' | append:'/'  }}">{{ site.author }}</a> on
           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
