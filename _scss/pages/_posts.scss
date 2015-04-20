@@ -29,7 +29,7 @@ section {
     }
     a[data-lightbox] {
         display: inline-block;
-        margin: 0 10%;
+        margin: .2em 10%;
         padding: .3em;
         border: 1px solid $border-color;
         border-radius: 4px;
@@ -37,6 +37,15 @@ section {
         &:hover {
             border-color: $main-color;
         }
+        &.thumbnail{
+            width:23%;
+            margin: .2em .1em;
+            padding: .1em;
+        }
+    }
+    .thumb-group{
+        margin: 0 10%;
+        text-align:center;
     }
     img {
         width: 100%;

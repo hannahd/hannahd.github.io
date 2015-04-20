@@ -433,8 +433,11 @@ p {
 small {
   font-size: 80%; }
 
-ul li {
-  list-style-type: circle; }
+ul {
+  margin: 0 0 1.3em 0; }
+  ul li {
+    list-style-type: circle;
+    margin: .6em 1.4em; }
 
 ol {
   margin: 0 0 1.3em 0; }
@@ -992,13 +995,20 @@ section {
     margin-bottom: 3em; }
   section a[data-lightbox] {
     display: inline-block;
-    margin: 0 10%;
+    margin: .2em 10%;
     padding: .3em;
     border: 1px solid #e0e1e6;
     border-radius: 4px;
     transition: border-color 500ms; }
     section a[data-lightbox]:hover {
       border-color: #19b5fe; }
+    section a[data-lightbox].thumbnail {
+      width: 23%;
+      margin: .2em .1em;
+      padding: .1em; }
+  section .thumb-group {
+    margin: 0 10%;
+    text-align: center; }
   section img {
     width: 100%;
     border-radius: 4px; }

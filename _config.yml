@@ -7,7 +7,8 @@ description: "This is the portfolio of Hannah Deering, an experience & interacti
 # Your name. Will show in your footer + sidebar
 author: "Hannah Deering"
 
-url: "http://hannahd.github.io"
+url:"http://hannahd.github.io"
+#url:"http://127.0.0.1:4000"
 baseurl: ""
 
 # Social Accounts (mine, as placeholders)

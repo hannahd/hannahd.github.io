@@ -91,7 +91,13 @@ small {
   font-size: 80%;
 }
 
-ul li { list-style-type: circle; }
+ul {
+    margin: 0 0 1.3em 0;
+    li {
+        list-style-type: circle;
+        margin: .6em 1.4em;
+    }
+}
 ol {
     margin: 0 0 1.3em 0;
     li {
