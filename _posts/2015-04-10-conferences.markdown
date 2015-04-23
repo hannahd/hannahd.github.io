@@ -24,16 +24,20 @@ tags: conferences references
 <small>"The theme for CHI 2015 is "Crossings": crossing borders, crossing boundaries, crossing disciplines, crossing people and technology, crossing past and future, crossing physical and digital, crossing art and science, … crossing you and me."</small>
 - [MX: Managing Experience](https://www.eventbrite.com/e/mx-2015-hosted-by-adaptive-path-tickets-14585133527) <small>_Adaptive Path, April 20-21, San Francisco_</small><br>
 <small>"Our conference for leaders who are charged with guiding better experiences out into the world."</small>
+- [Industry](http://2015.industryconf.com/) <small>_April 22, Newcastle upon Tyne, UK_</small><br><small>"Topics will cover web design, user research, content strategy, front-end development, web performance, user experience and typography."</small>
 - [IA Summit](http://www.iasummit.org/events/ias2015/) <small>_April 22-26, Minneapolis ($900)_</small>
+- [Symposium on Human Factors and Ergonomics in Health Care: Improving the Outcomes](http://www.hfes.org/web/HFESMeetings/2015HealthCareSymposium.html) <small>_April 26-29, Baltimore, Maryland_</small>
 
 
 #### May 2015
-- [DESRIST](http://desrist2015.computing.dcu.ie/) <small>_Design Science Research in Information Systems and Technology, May 21-22,  Dublin, Ireland ($525)_</small><small>"The goal of the design science research paradigm is to extend the boundaries of human and organizational capabilities by designing new and innovative constructs, models, methods, processes, and systems. Scholars from different backgrounds -- such as information systems, computer science, software engineering, energy informatics and medical informatics -- are actively engaged in generating novel solutions to interesting design problems in Information Systems."</small>
+- [DESRIST](http://desrist2015.computing.dcu.ie/) <small>_Design Science Research in Information Systems and Technology, May 21-22,  Dublin, Ireland ($525)_</small><br><small>"The goal of the design science research paradigm is to extend the boundaries of human and organizational capabilities by designing new and innovative constructs, models, methods, processes, and systems. Scholars from different backgrounds -- such as information systems, computer science, software engineering, energy informatics and medical informatics -- are actively engaged in generating novel solutions to interesting design problems in Information Systems."</small>
 
 
 
 #### June 2015
+- [UX Stategies Summit](http://uxstrategiessummit.com/) <small>_June 9-11, San Francisco ($1500)_</small>
 - [GIANT Conf](http://conf.giantux.com/) <small>_June 14-17, Charleston, SC ($800)_</small><br><small>"GIANT Conference exists because creativity and community go together like a guitar and amp. GIANT is an event for people who do rad work. We’ll talk about rad work at a technical level, and we’ll talk about rad work in abstract levels."</small>
+- [Technical Communication Summit](http://summit.stc.org/) <small>_June 21-24, Columbus, OH ($1500)_</small>
 - [UXPA Conference](http://uxpa2015.org/) <small>_June 22-25, San Diego_</small>
 
 #### July 2015
@@ -44,13 +48,17 @@ tags: conferences references
 <small>"Our flagship event and the premiere user experience design conference, now in its 13th year. Four days of inspiration and skills building, delivering new tools you can put to use immediately."</small>
 
 #### September 2015
+- [EuroIA](http://www.euroia.org/) <small>_September 24-26, 
+Madrid_</small>
 
 #### October 2015
-- [Delight](http://delight.us/conference/) <small>_Connective DX, October 5th - 6th, 2015
+- [Delight](http://delight.us/conference/) <small>_Connective DX, October 5-6, 
 Portland, OR_</small><br>
 <small>"Delight is a two-day conference in Portland, Oregon for brands and professionals who care about making experiences people love. The event gathers leaders working at the intersection of business, design and technology in an intimate forum that encourages big ideas, interactive discussions and lasting connections."</small>
 - [UX Intensive Denver](http://ux-intensive.com/) <small>_Adaptive Path, October 5-8, Denver ($2600)_</small><br>
 <small>"Our popular four-day workshop series designed to build skills in Strategy, Research, Service Design, and Interaction Design. Fun and hands on."</small>
+- [HFES Annual Meeting](http://www.hfes.org/web/HFESMeetings/meetings.html) <small>_Human Factors and Ergonomics Society, October 26-30, 
+Los Angeles</small>
 
 #### November 2015
 - [User Interface 20](http://ui20.uie.com/) <small>_UIE, November 2–4, Boston ($1500+)_</small><br>
