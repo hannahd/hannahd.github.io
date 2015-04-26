@@ -102,7 +102,8 @@ Los Angeles</small>
 #### Other
 - [Cooper Training Courses](http://www.cooper.com/training/)
 
-#### <a name="videos">Video Seminars/Conference Talks</a>
+<a name="videos">&nbsp;</a>
+#### Video Seminars/Conference Talks
 
 ##### Free
 - [Adaptive Path](https://vimeo.com/adaptivepath/videos)
