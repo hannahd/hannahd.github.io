@@ -7,7 +7,7 @@ categories: blog
 tags: conferences references
 ---
 
-_Last updated: April 25, 2015_
+<small>_Last updated: April 25, 2015_</small>
 
 _If you don't see a conference you think should be on this list, shoot me a message over on [Twitter](https://twitter.com/hannahd_ux)._
 
