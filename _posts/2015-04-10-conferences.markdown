@@ -103,6 +103,7 @@ Los Angeles</small>
 - [Cooper Training Courses](http://www.cooper.com/training/)
 
 <a name="videos">&nbsp;</a>
+
 #### Video Seminars/Conference Talks
 
 ##### Free
