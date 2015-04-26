@@ -7,9 +7,9 @@ categories: blog
 tags: conferences references
 ---
 
-<small>_Last updated: April 25, 2015_</small>
+<small>_Last updated:_ April 25, 2015</small>
 
-_If you don't see a conference you think should be on this list, shoot me a message over on [Twitter](https://twitter.com/hannahd_ux)._
+If you don't see a conference you think should be on this list, shoot me a message over on [Twitter](https://twitter.com/hannahd_ux).
 
 #### January 2015
 - [Tiny Giant](http://tiny.giantux.com/charlotte2015/) <small>_January 23, Charlotte, NC ($200)_</small> <br>
@@ -102,7 +102,9 @@ Los Angeles</small>
 #### Other
 - [Cooper Training Courses](http://www.cooper.com/training/)
 
+<a name="videos">
 #### Video Seminars/Conference Talks
+</a>
 
 ##### Free
 - [Adaptive Path](https://vimeo.com/adaptivepath/videos)
