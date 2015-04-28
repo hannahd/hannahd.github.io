@@ -21,9 +21,12 @@ If you don't see a conference you think should be on this list, shoot me a messa
 
 #### March 2015
 - [LAK](http://lak15.solaresearch.org/home) <small>_Learning Analytics and Knowledge Conference, March 16-20 ($750)_</small><br><small>"The theme for this year's conference, Scaling Up: Big Data to Big Impact, reflects the success of our growing community of researchers, practitioners, and learners in leveraging the power of "big data" to create substantial impact within higher education and learning at increasingly larger scale."</small>
+- [Smashing Conference](http://smashingconf.com/oxford-2015/) <small>_Smashing Magazine, March 17-18, Oxford, UK ($600)_</small><br><small>"With our upcoming SmashingConf Oxford 2015, we'll explore heavily practical insights, tips, tricks and techniques that we all can apply to our work right away."</small>
 
 #### April 2015
 - [UX Immersion Mobile Conference](http://uxim15.uie.com/) <small>_UIE, April 13–15, Salt Lake City_</small>
+- [Generate](http://www.generateconf.com/new-york-2015) <small>_net magazine, April 17, New York ($380)_</small><br><small>"Generate conferences are presented by net magazine - the world’s leading print and digital publication for web designers. Established in 1994, net magazine has been at the heart of web design and development for over two decades, and boasts an unparalleled list of contributors and supporters. A source of inspiration, education and networking opportunities, this year's Generate will be packed with more top content from world-class speakers."</small>
+- [Meta Refresh](https://metarefresh.in/2015/) <small>_April 16-17, Bangalore_</small><br><small>Meta Refresh is a conference on the construction of the user experience on the web. Meta Refresh is a conference for working web designers and developers to present on how their own work has advanced the state of the web in the past year. For 2015 our focus is on (a) Design from a web engineering standpoint, and (b) Enhancing the state of web experiences on mobile devices, with their many constraints. </small>
 - [CHI - Crossings](http://chi2015.acm.org/) <small>_SIGCHI, April 18-23, Seoul, Korea ($1400)_</small><br>
 <small>"The theme for CHI 2015 is "Crossings": crossing borders, crossing boundaries, crossing disciplines, crossing people and technology, crossing past and future, crossing physical and digital, crossing art and science, … crossing you and me."</small>
 - [MX: Managing Experience](https://www.eventbrite.com/e/mx-2015-hosted-by-adaptive-path-tickets-14585133527) <small>_Adaptive Path, April 20-21, San Francisco_</small><br>
@@ -44,11 +47,14 @@ If you don't see a conference you think should be on this list, shoot me a messa
 
 
 #### June 2015
+- [UX Lisbon](https://www.ux-lx.com/) <small>_June 3-5, Lisbon, Portugal ($1100)_</small><br><small>"UXLx is a premier User Experience Conference, and our speaker lineup is really the cream of the crop in the industry worldwide. They’re Usability Experts, Information Architects and Interaction Designers, all of them experts in their fields. You’ll not only be inspired by their 10 thought provoking talks but you’ll have the opportunity to learn one on one in their 16 practical workshops."</small>
 - [An Event Apart](http://aneventapart.com/event/boston-2015) <small>_June 8-10, San Diego ($1200)_</small><br><small>"An Event Apart brings together twelve of the leading minds in web design and development for two days of inspiration and enlightenment, plus an optional “A Day Apart” third day focused on a single, essential topic. Each conference session builds on the one before it; each topic is essential to the practice of modern web design and development."</small>
 - [UX Stategies Summit](http://uxstrategiessummit.com/) <small>_June 9-11, San Francisco ($1500)_</small>
 - [GIANT Conf](http://conf.giantux.com/) <small>_June 14-17, Charleston, SC ($800)_</small><br><small>"GIANT Conference exists because creativity and community go together like a guitar and amp. GIANT is an event for people who do rad work. We’ll talk about rad work at a technical level, and we’ll talk about rad work in abstract levels."</small>
+- [Smashing Conference](http://smashingconf.com/ny-2015/) <small>_Smashing Magazine, June 15-18, New York ($600)_</small><br><small>"With our upcoming SmashingConf New York 2015, we'll explore real-life projects, workflows and hands-on insights that we all can learn from and use right away. Same game, same rules: 1 track, 2 conference days, 5 workshops, 15 excellent speakers and just 400 available seats."</small>
 - [Technical Communication Summit](http://summit.stc.org/) <small>_June 21-24, Columbus, OH ($1500)_</small>
 - [UXPA Conference](http://uxpa2015.org/) <small>_June 22-25, San Diego_</small>
+- [Smashing Conference](http://smashingconf.com/) <small>_Smashing Magazine, June 15-18, Los Angeles ($600)_</small><br><small>"The focus of the SmashingConf is tangible, actionable insights that you can apply to your work right away. Be it your workflow, front-end, design, development, UX or performance tricks."</small>
 
 #### July 2015
 
@@ -60,6 +66,8 @@ If you don't see a conference you think should be on this list, shoot me a messa
 - [An Event Apart](http://aneventapart.com/event/boston-2015) <small>_August 31 - September 2, Chicago, IL ($1200)_</small><br><small>"An Event Apart brings together twelve of the leading minds in web design and development for two days of inspiration and enlightenment, plus an optional “A Day Apart” third day focused on a single, essential topic. Each conference session builds on the one before it; each topic is essential to the practice of modern web design and development."</small>
 
 #### September 2015
+- [Reasons To Be Creative](http://reasons.to/) <small>_September 7-9, Brighton ($600)_</small><br><small>"REASONS is a 3 day conference with a festival vibe, held annually in Brighton UK. Every year the very best international creative and developer speakers take to the stage to wow, inspire, inform, entertain, thrill, teach and mix with web designers and coders that attend from all over the world."</small>
+- [Generate](http://www.generateconf.com/london-2015) <small>_net magazine, September 17-18, London ($450)_</small>
 - [EuroIA](http://www.euroia.org/) <small>_September 24-26, 
 Madrid_</small>
 
@@ -115,6 +123,7 @@ Los Angeles</small>
 - [An Event Apart](http://aneventapart.com/news/tag/video)
 - [Fluent '15](https://www.youtube.com/watch?list=PL055Epbe6d5ZqIHE7NA5f6Iq_bZNjuWvS&v=2ksXo2_Lfl0)
 - [Fluent '14](http://fluentconf.com/fluent2014/public/content/video)
+- [Generate](http://www.generateconf.com/videos)
 
 ##### Paid
 - [All You Can Learn by UIE](http://aycl.uie.com/) <small>_$23/month or $16/seminar_</small>
