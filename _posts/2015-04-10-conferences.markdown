@@ -124,6 +124,7 @@ Los Angeles</small>
 - [Fluent '15](https://www.youtube.com/watch?list=PL055Epbe6d5ZqIHE7NA5f6Iq_bZNjuWvS&v=2ksXo2_Lfl0)
 - [Fluent '14](http://fluentconf.com/fluent2014/public/content/video)
 - [Generate](http://www.generateconf.com/videos)
+- [UX Lisbon](https://www.ux-lx.com/videos.html)
 
 ##### Paid
 - [All You Can Learn by UIE](http://aycl.uie.com/) <small>_$23/month or $16/seminar_</small>
