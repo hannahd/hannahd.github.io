@@ -82,6 +82,7 @@ Portland, OR_</small><br>
 <small>"Our popular four-day workshop series designed to build skills in Strategy, Research, Service Design, and Interaction Design. Fun and hands on."</small>
 - [HFES Annual Meeting](http://www.hfes.org/web/HFESMeetings/meetings.html) <small>_Human Factors and Ergonomics Society, October 26-30, 
 Los Angeles</small>
+- [Future of Web Design](https://futureofwebdesign.com/san-francisco-2015/schedule/conf-day-1)<small>_Future Insights, October 29-30, San Francisco, CA ($1000)_</small><br><small>"We bring you a mix of technical and inspirational sessions from established names in the industry, covering new and emerging developments in HTML and CSS, UX and UI design, and best practices."</small>
 
 #### November 2015
 - [User Interface 20](http://ui20.uie.com/) <small>_UIE, November 2–4, Boston ($1500+)_</small><br>
