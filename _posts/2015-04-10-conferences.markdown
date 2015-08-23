@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "UX Conferences"
-tagline: "Running list of notable UX conferences and events"
+title:  "2015 UX Conferences"
+tagline: "Running list of notable 2015 UX conferences and events"
 date:   2015-04-10 20:48:46
 categories: blog
 tags: conferences references
@@ -94,22 +94,6 @@ Los Angeles</small>
 
 #### December 2015
 
-#### January 2016
-
-#### February 2016
-
-#### March 2016
-- [Interactions](http://interaction15.ixda.org/) <small>_IXDA, March 2-4, Helsinki Finland (Call for Proposals - June '15)_</small>
-- [Fluent](http://www.oreilly.com/conferences/) <small>_O'Reilly, March 8-10, San Francisco_</small>
-
-#### April 2016
-
-#### May 2016
-- [CHI - #chi4good](http://chi2016.acm.org/) <small>_Computer Human Interaction, May 7-12, San Jose (Paper Submission - Sept 25, 2015; Case Studies - Oct 9, 2015)_</small><br>
-
-#### July 2016
-- [ICCHP](http://www.icchp.org/) <small>_International Conference on Computers Helping People with Special Needs, July 13-15, University of Linz, Austria_</small><br><small>"CCHP is a series of biannual scientific conferences in the field of ICT/AT for people with disabilities run in co-operation with the Johannes Kepler University, Linz and the Austrian Computer Society."</small>
-
 #### Other
 - [Cooper Training Courses](http://www.cooper.com/training/)
 
@@ -129,6 +113,7 @@ Los Angeles</small>
 - [Generate](http://www.generateconf.com/videos)
 - [UX Lisbon](https://www.ux-lx.com/videos.html)
 - [Blend 2014](http://2014.blendconf.com/wrapup/)
+- [Enterprise UX '15](https://vimeo.com/album/3484349)
 
 ##### Paid
 - [All You Can Learn by UIE](http://aycl.uie.com/) <small>_$23/month or $16/seminar_</small>

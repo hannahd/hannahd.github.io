@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Tracking UX Reading & Insights"
+tagline: "After exploring many ways of collecting notes from books & articles I've chosen..."
+date:   2015-08-21 17:10:46
+categories: blog
+tags: 
+---
+
+I read quite a bit. In a lot of ways it becomes difficult to manage the information that I'm consuming and can't hope to remember. Podcasts, talks, books, and articles contribute to my growing experience, but I can't help but feel most of the wisdom I find there is forgotten. I've tried various means of doing this, notebooks, Evernote, taking pictures of key sections of books. These methods were slightly effective, but difficult to browse back through or share. 
+
+I've decided to start a Tumblr to put [golden tidbits from my readings](http://hannahd-ux.tumblr.com/), to tag them for myself and share them with others. Twitter's character limits kept getting in the way of quality quotes, but I will also be posting there, linking to particularly good items. If you also have tried this sort of collection before, I would love to hear your thoughts or what you have found effective! 
