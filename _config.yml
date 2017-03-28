@@ -1,8 +1,8 @@
 # Title of your blog; shows in the header
-name: HannahD · UX Designer
+name: Hannah · UX Designer
 
 # Description of your content (will only be used on Google Search)
-description: "This is the portfolio of Hannah Deering, an experience & interaction designer in Iowa."
+description: "This is the portfolio of Hannah, a UX designer at Workiva."
 
 # Your name. Will show in your footer + sidebar
 author: "Hannah Deering"
@@ -15,18 +15,15 @@ baseurl: ""
 
 twitter: hannahd_ux
 github: hannahd
+email: ux.hannahd@gmail.com
 
 # Google Analytics (you may want to changes these with yours or even delete :)
 
 ga_domain: hannahd.github.io
-ga_tracking_id: UA-40008149-1
+ga_tracking_id: UA-55586728-1
 
 # Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
 markdown: kramdown
 permalink: pretty
-highlighter: pygments
 
 exclude: [vendor]
-
-
-

@@ -1,25 +1,36 @@
 // Colors
+$grey-3: rgba(72%,72%,72%,1.00);
+$white: rgba(100%,100%,100%,1.00);
+$grey-1: rgba(98%,98%,98%,1.00);
+$grey-2: rgba(94%,94%,94%,1.00);
+$grey-default: rgba(21%,21%,21%,1.00);
+$purple: rgba(66%,0%,70%,1.00);
+$yellow: rgba(100%,94%,0%,.40);
 
-$main-color:        #19b5fe;  // bright blue
+
+$main-color:        $purple;  // bright purple
 $alt-color:         #2c3e50;  // dark blue
-$bg-color:          white;    // background color
+$bg-color:          $grey-1;    // background color
 
-$text-color:        #333;     // dark grey
-$med-text-color:    #6C7A89;  // med grey
-$subtle-text-color: #aab2b7;  // light grey
-$link-color:        $main-color;
-$border-color:      #e0e1e6;
+$text-color:        $grey-default;     // dark grey
+$med-text-color:    $grey-3;  // med grey
+$subtle-text-color: $grey-3;  // light grey
+$link-color:        $grey-default;
+$border-color:      $grey-2;
 $smoke-color:       rgba(250, 250, 250, 0.12);
+$highlight-color:   $yellow;
+
+
 
 
 // Typography
 
-$font-family:       'Lora', Georgia, serif;
+$font-family:       'Lato', 'Helvetica Neue', Arial, sans-serif;
 $variant-family:    'Lato', 'Helvetica Neue', Arial, sans-serif;
-$font-size-l:       1.25em;             // font-size on desktop type screens
-$font-size-m:       $font-size-l * 0.9; // font-size under 942px wide screens
-$font-size-s:       $font-size-l * 0.7; // font-size under 642px wide screen
-$font-size-xs:       $font-size-l * 0.5;
+$font-size-l:       1em;             // font-size on desktop type screens
+$font-size-m:       1em; //$font-size-l * 0.9; // font-size under 942px wide screens
+$font-size-s:       1em; //$font-size-l * 0.7; // font-size under 642px wide screen
+$font-size-xs:      1em; // $font-size-l * 0.5;
 
 
 // Spacings
