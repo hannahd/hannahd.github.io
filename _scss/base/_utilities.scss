@@ -15,3 +15,16 @@
   padding-top: $spacing-m;
   padding-bottom: $spacing-m;
 }
+
+.hide-sm {
+  @media only screen and (min-width: $breakpoint-small) {
+    display:none;
+  }
+}
+
+.show-sm {
+  display:none;
+  @media only screen and (min-width: $breakpoint-small) {
+    display:block;
+  }
+}
