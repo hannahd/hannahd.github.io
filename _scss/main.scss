@@ -1,17 +1,17 @@
-// Based off: Hikari v2.01 by Mathieu Mayer-Mazzoli http://m3xm.github.io
+// Based off: Hikari v2.01 by Mathieu Mayer-Mazzoli - http://m3xm.github.io
 
 // Base
-@import '../_scss/base/reset';
+@import '../_scss/plugins/reset';
 @import '../_scss/base/variables';
 @import '../_scss/base/utilities';
 @import '../_scss/base/global';
 
 // Components
-@import '../_scss/components/syntax';
 
 // Partials
 @import '../_scss/partials/header';
 @import '../_scss/partials/footer';
+@import '../_scss/plugins/simple-grid';
 
 // Pages
 @import '../_scss/pages/home';

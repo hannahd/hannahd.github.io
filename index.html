@@ -1,55 +1,395 @@
 ---
-layout: default
+layout: new-default
 title: Homepage
 ---
+<article>
+    <div class="row">
+        <h2 class="col-12 section-header"><a name="philosophy">Philosophy</a></h2>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <h3><span class="txt-accent">1/</span> People first.</h3>
+            <p>Real, messy, beautiful, complex people make and use products. Building deep relationships with both the individuals who create the software, and the individuals who use the software is critical to success. Your users are not personas; your
+                developers are not&nbsp;stereotypes.</p>
+        </div>
+        <div class="col-6">
+            <h3><span class="txt-accent">2/</span> UX > UI.</h3>
+            <p>User Experience decisions extend far deeper than the pixels on the screen. It is in the way your product gets packaged and sold. It is in the architectural decisions that determine what is possible. It is in the recruitment of a great team.
+                UX needs a seat at every one of those&nbsp;tables.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <h3><span class="txt-accent">3/</span> Focus on the problem.</h3>
+            <p>Discover the core problem. Get stakeholders agree on that problem. Gather data around the problem. Focus ideas and feedback on solving that core problem. Solution-focus leads to wasted time and bruised egos. The market is full of neat ideas
+                that failed because that weren’t rooted in a&nbsp;probem.</p>
+        </div>
+        <div class="col-6">
+            <h3><span class="txt-accent">4/</span> Bias towards action.</h3>
+            <p>When working with highly intelligent critical thinkers, it is far too easy to get into a state of analysis paralysis. Assumed risks and unknowns block progress. Acting forces secret assumptions into the open. Mistakes will be made, but failing
+                fast reduces time wasted on bad&nbsp;ideas.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <h3><span class="txt-accent">5/</span> Make ideas tangible.</h3>
+            <p>This is the designer’s main role. Sketches, whiteboarding, mockups and prototypes are all tools to pull ideas from the blurry imaginationland into reality. These concrete artifacts ensure teams are actually on the same page. People also don’t
+                know what they’ll like until they see and try&nbsp;it.</p>
+        </div>
+        <div class="col-6">
+            <h3><span class="txt-accent">6/</span> All things in context.</h3>
+            <p>People don’t work in controlled labs. Design for the real world context, not just the happy path. Stress, distractions and time pressures are almost impossible to simulate. This means visiting users onsite, empathizing with their broader story,
+                using real data instead of lorem ipsum, and testing in the&nbsp;wild.</p>
+        </div>
+    </div>
+</article>
 
-<header id="home">
-    <h1>Hi, I’m Hannah</h1>
-    <h3>I transform innovative ideas into delightful&nbsp;products.</h3>
-</header>
+<article>
+    <div class="row">
+        <h2 class="col-12 section-header"><a name="projects">Projects</a></h2>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <div class="project-thumbnail">
+                <div class="rotated-icons">
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-table icon-muted" aria-hidden="true"></i>
 
-{% if site.categories.project %}
-<div id="case-studies">
-    <h4>Case Studies</h4>
-    <ul class="features">
-        {% for post in site.categories.project %}
-        <li itemscope itemtype="http://schema.org/BlogPosting">
-            <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">
-                    <p itemprop="name headline">{{ post.title }} <small><br/>{{ post.tagline }}</small></p>
-            </a>
-        </li>
-        {% endfor %}
-    </ul>
+                </div>
+            </div>
+            <h3>Wdesk Spreadsheets</h3>
+            <p>Excel is the powerhorse of most financial teams. However, it is fraught errors and painful to collaborate in. At Workiva, we are redifining what it means to work with spreadsheets and connect that data to reports and&nbsp;presentations.</p>
+            <p>Sept 2015&nbsp;&ndash;&nbsp;CURRENT</p>
+            <p>
+                <a href="https://success.workiva.com/help/spreadsheets/introduction-to-spreadsheets">View on Wdesk Help&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a>
+                <span class="txt-muted pull-right">Case Study Coming Soon</span>
+            </p>
+        </div>
+        <div class="col-6">
+            <div class="project-thumbnail">
+                <div class="rotated-icons">
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-check-square-o icon-muted" aria-hidden="true"></i>
+                </div>
+            </div>
+            <h3>Wdesk Tasks</h3>
+            <p>Accounting teams build complex reports in Wdesk. Team can assign multiple task types such as approvals, reviews, requests for documentation in the same environment that they use to create their&nbsp;documents.</p>
+            <p>Sept 2014&nbsp;&ndash;&nbsp;May 2015</p>
+            <p>
+                <a href="https://success.workiva.com/help/tasking/introduction-to-tasking">View on Wdesk Help&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a>
+                <span class="txt-muted  pull-right">Case Study Coming Soon</span>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <div class="project-thumbnail">
+                <div class="rotated-icons">
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-home icon-muted" aria-hidden="true"></i>
+                </div>
+            </div>
+            <h3>Wdesk Home</h3>
+            <p>This landing page allows teams to quickly access and manage all their Wdesk files from a single location. With the goal of getting people to their work fast, Home is customized for each license to show what is most&nbsp;relevant.</p>
+            <p>Oct 2013&nbsp;&ndash;&nbsp;June 2016</p>
+            <p>
+                <a href="https://success.workiva.com/help/wdesk/wdesk-home/wdesk-home-overview">View on Wdesk Help&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a>
+                <span class="txt-muted pull-right">Case Study Coming Soon</span>
+            </p>
+        </div>
+        <div class="col-6">
+            <div class="project-thumbnail">
+                <div class="rotated-icons">
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-eye icon-muted" aria-hidden="true"></i>
+                </div>
+            </div>
+            <h3>Accessibility Study</h3>
+            <p>By observing eye-tracking data and differences in responses between participants, this study aimed to quantify key differences between web content evaluation between individuals with or without Autism Spectrum&nbsp;Disorders.</p>
+            <p>2012&nbsp;&ndash;&nbsp;2013 (Master's Thesis)</p>
+            <p>
+                <a href="{{ site.baseurl }}/assets/2013HannahDeeringMSThesis.pdf">Download PDF&nbsp;<i class="fa fa-download" aria-hidden="true"></i></a>
+                <span class="txt-muted pull-right">Case Study Coming Soon</span>
+                <!--<a href="">See Case Study <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>-->
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <div class="project-thumbnail">
+                <div class="rotated-icons">
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-graduation-cap icon-muted" aria-hidden="true"></i>
+                </div>
+            </div>
+            <h3>Tassel Directory</h3>
+            <p>A survey of Iowa State HCI website usage found that the directory pages were one of the sole reasons students, faculty and prospectives used the site. However, it was difficult to use, search and maintain. Tassel fixes&nbsp;that.</p>
+            <p>2013 (Coursework)</p>
+            <p>
+                <span class="txt-muted">Case Study Coming Soon</span>
+            </p>
+        </div>
+        <div class="col-6">
+            <div class="project-thumbnail">
+                <div class="rotated-icons">
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <br>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                    <i class="fa fa-twitter icon-muted" aria-hidden="true"></i>
+                </div>
+            </div>
+            <h3>Twitter Bubbles</h3>
+            <p>The Twitter firehose inundates users with a constant stream of the latest Tweets from the people they follow. This web app experimented in cutting through the noise of Twitter and emphasizing the lesser heard&nbsp;voices.</p>
+            <p>2013 (Coursework)</p>
+            <p>
+                <span class="txt-muted">Case Study Coming Soon</span>
+            </p>
+        </div>
+    </div>
+</article>
+
+<!-- <article>
+<div class="row">
+    <h2 class="col-12 section-header"><a name="process">Process</a></h2>
 </div>
-{% endif %}
+</article> -->
+<article>
+    <div class="row">
+        <h2 class="col-12 section-header"><a name="about">About</a></h2>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <p class="txt-lg">I am currently a <em>Senior UX Designer at Workiva</em>, transforming the way that accounting and finance teams work together. I have experiences ranging from contracting with early startups to interning at GE's Software Center of Excellence.
+                I hold <em>degrees in Design, Computer Science and Human-Computer Interaction</em> from Iowa State University. My Master’s thesis explored web accessibility for students with Autism Spectrum Disorders. I am passionate about promoting women in
+                technology through training and outreach programs, exposing young women to the creative and empowering side of building&nbsp;technology.</p>
 
-{% if site.categories.experiment %}
-<div id="experiments">
-    <h4>Experiments</h4>
-    <ul class="features">
-        {% for post in site.categories.experiment %}
-        <li itemscope itemtype="http://schema.org/BlogPosting">
-            <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url"><p itemprop="name headline">{{ post.title }}<small><br/>{{ post.tagline }}</small></p>
-            </a>
-        </li>
-        {% endfor %}
-    </ul>
-</div>
-{% endif %}
-
-{% if site.categories.blog %}
-<div id="thoughts">
-    <h4>Thoughts</h4>
-    <ul class="posts">
-        {% for post in site.categories.blog %}
-        <li itemscope itemtype="http://schema.org/BlogPosting">
-            <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url"><p itemprop="name headline">{{ post.title }}</p></a>
-            <p class="description">{{ post.tagline }}</p>
-            <p class="time"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-                        {{ post.date | date_to_string }}
-                    </time></p>
-        </li>
-        {% endfor %}
-    </ul>
-</div>
-{% endif %}
+            <h3>Not your average designer</h3>
+            <p><em>I speak dev.</em>&nbsp;&nbsp;This goes beyond a base understanding of HTML &amp; CSS. With my Computer Science degree, I can have deeper discussions with developers about constraints and opportunities of the technology focusing on impacts
+                to the User Experience. I’m comfortable having discussions about topics like linear vs logorithmic runtime, causal vs eventual consistency, and the benefits client vs server&nbsp;execution.</p>
+            <p><em>I evangelize good ideas.</em>&nbsp;&nbsp;Big ideas require a lot of people to get behind them in order to come to life. I have more than 3 years of experience building a vision, addressing concerns, influencing stakeholders, and driving
+                concepts and process improvements&nbsp;forward.</p>
+            <p><em>I’m a wicked fast prototyper.</em>&nbsp;&nbsp;I have found quickly building prototypes as the most effective way to advance quality design, so I have worked hard to build this skill. I’ve given <a href="https://www.slideshare.net/HannahDeering1/beyond-high-or-low-multifidelity-rapid-prototyping-university-of-illinois-webcon">multiple talks&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a>                on the subject at meetups and&nbsp;conferences.</p>
+        </div>
+        <div class="col-6">
+            <h3 class="no-top-margin">Speaking &amp; Honors</h3>
+            <p><a href="https://www.slideshare.net/HannahDeering1/beyond-high-or-low-multifidelity-rapid-prototyping-university-of-illinois-webcon">"Beyond High or Low: Multi-Fidelity Rapid Prototyping"&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a> <br> <span class="txt-muted">Apr 2016 &mdash; U of Illinois WebCon</span></p>
+            <p>Technology Career Panel <br> <span class="txt-muted">Jan 2016 &mdash; AZ State Jumpstarting STEM Careers</span></p>
+            <p>Rising Star Award Nominee <br> <span class="txt-muted">Nov 2015 &amp; 2016 &mdash; Technology Association of Iowa Women of Innovation Awards</span></p>
+            <p>"Build It Better - How To Make Technology People Love” (Workshop) <br><span class="txt-muted">Oct 2015 &amp; March 2016 &mdash; Iowa State Women in Science &amp; Engineering STEM Careers Conference</span></p>
+            <p><a href="https://www.slideshare.net/HannahDeering1/rapid-prototyping-experiencing-ux-meetup-des-moines-august-24-2015">"Rapid Prototyping"&nbsp;<i class="fa fa-external-link" aria-hidden="true"></i></a><br> <span class="txt-muted">Aug 2015 &mdash; Des Moines Experiencing UX Meetup</span></p>
+            <p>Young Professionals Panel <br> <span class="txt-muted">Jan 2015 &mdash; Iowa State Women in Science &amp; Engineering Leadership Conference</span></p>
+            <p>"Building Apps People Love" (Workshop) <br> <span class="txt-muted">Feb 2015 &mdash; Iowa Science Museum Sci Gals</span></p>
+            <p>2011 &mdash; 1st Place, ISU World Usability Day Challenge</p>
+            <p>2010 &mdash; ISU Computer Science Union Pacic Scholar</p>
+            <p>2009 &mdash; ISU Women in Sci &amp; Eng Ada Hayden Scholar</p>
+        </div>
+    </div>
+</article>
