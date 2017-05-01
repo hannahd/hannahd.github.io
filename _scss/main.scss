@@ -2,7 +2,6 @@
 
 // Base
 @import '../_scss/plugins/reset';
-@import '../_scss/plugins/simple-grid';
 @import '../_scss/base/variables';
 @import '../_scss/base/utilities';
 @import '../_scss/base/global';
@@ -12,6 +11,7 @@
 // Partials
 @import '../_scss/partials/header';
 @import '../_scss/partials/footer';
+@import '../_scss/plugins/simple-grid';
 
 // Pages
 @import '../_scss/pages/home';

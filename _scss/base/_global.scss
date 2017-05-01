@@ -15,6 +15,7 @@ html, body {
     box-sizing: border-box;
   }
 }
+
 /*
 main{
   @media only screen and (min-width: $breakpoint-large) {
@@ -80,8 +81,9 @@ header{
 
 
 // typography
-body {
+body{
   font: $font-size-l $font-family;
+  line-height: 1.45em;
   color: $text-color;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -93,33 +95,123 @@ body {
     font-size: $font-size-m;
   }
 }
-/*
+p{
+  margin-bottom:1em;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6{
   font-family: $variant-family;
+  font-weight: normal;
 }
 
-h1 {
-  font-size: 250%;
-  margin: $spacing-xs 0;
+em{
+  background-color:$yellow;
+  font-style:normal;
+  padding:0 .2em;
+  margin:0 -.2em;
 }
 
-h2 {
-  font-size: 180%;
-  font-style: italic;
-  margin: $spacing-s 0 $spacing-xs;
+.txt-accent{
+    color: $link-color;
+}
+
+.txt-lg{
+  font-size:1.25em;
+  line-height:1.4em;
+}
+
+a[href]{
+  color: $link-color;
+  text-decoration: none;
+
+  &:hover{
+    color: darken($link-color, 20%);
+    border-bottom:1px solid darken($link-color, 20%);
+  }
+}
+
+
+h1{
+  font-size: 1.7em;
+  line-height: 1.3em;
+}
+
+header{
+  margin-top:3em;
+}
+
+.nav-horizontal-list{
+  list-style: none;
+  li{
+    display: inline-block;
+    padding: 0 1.5em 0 0;
+  }
+}
+
+.fa{
+  padding:0 .2em 0 .2em;
+}
+
+h2{
+  font-size: .9em;
+  text-transform: uppercase;
+}
+
+.row .col-12.section-header{
+  border-bottom:1px solid $text-color;
+  line-height:.6em;
+  margin-top: 3em;
+  margin-bottom: 1.5em;
+
+  a{
+    background:$bg-color;
+  }
 }
 
 h3 {
-  font-size: 150%;
-  font-weight: lighter;
-  margin: $spacing-sm 0 $spacing-xs;
+  font-size: 1.2em;
+  margin: .7em 0;
+}
+.no-top-margin{
+  margin-top:0;
 }
 
+.project-thumbnail{
+  background: $yellow;
+  height: 60px;
+  overflow: hidden;
+  margin-top:1em;
+}
+
+.txt-muted{
+  opacity:.6;
+}
+.pull-right{
+  float:right;
+}
+.icon-muted{
+  opacity:.1;
+}
+
+.rotated-icons{
+  margin:-100px;
+  text-align:center;
+  line-height:1em;
+  font-size:50px;
+  transform: rotate(-25deg);
+  user-select: none;
+
+  .fa {
+    padding: 0;
+  }
+}
+
+/*
 h4 {
   text-transform: none;
         letter-spacing: normal;
@@ -169,17 +261,7 @@ ol {
     }
 }
 
-a {
-  color: $link-color;
-  text-decoration: none;
 
-
-
-  &:hover {
-    color: darken($link-color, 20%);
-    border-bottom:1px solid darken($link-color, 20%);
-  }
-}
 .lb-data a.lb-close:hover{
     border-bottom:0;
 }*/
