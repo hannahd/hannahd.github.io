@@ -125,6 +125,16 @@ em{
   line-height:1.4em;
 }
 
+.txt-sm{
+  font-size:.8em;
+  line-height:1.4em;
+}
+
+img {
+  border:1px solid $grey-2;
+  width:100%
+}
+
 a[href]{
   color: $link-color;
   text-decoration: none;
@@ -181,11 +191,32 @@ h3 {
   margin-top:0;
 }
 
-.project-thumbnail{
-  background: $yellow;
-  height: 60px;
-  overflow: hidden;
+.project-thumbnail, .project-thumbnail-short {
+    background: rgba(255, 240, 0, 0.4);
+    overflow: hidden;
+}
+
+.project-thumbnail {
+    height: 60px;
+    margin-top: 1em;
+}
+.project-thumbnail-short {
+    font-size: 1.7em;
+    height: 30px;
+    margin-top: 0;
+}
+
+
+@media only screen and (min-width: 45em) {
+    .project-thumbnail-short {
+        margin-top: 0.67em;
+    }
+}
+
+.top-bottom-borders{
   margin-top:1em;
+  border-bottom:1px solid $text-color;
+  border-top:1px solid $text-color;
 }
 
 .txt-muted{
