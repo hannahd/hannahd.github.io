@@ -470,6 +470,14 @@ em {
   font-size: 1.25em;
   line-height: 1.4em; }
 
+.txt-sm {
+  font-size: .8em;
+  line-height: 1.4em; }
+
+img {
+  border: 1px solid #f0f0f0;
+  width: 100%; }
+
 a[href] {
   color: #a800b3;
   text-decoration: none; }
@@ -512,11 +520,26 @@ h3 {
 .no-top-margin {
   margin-top: 0; }
 
-.project-thumbnail {
+.project-thumbnail, .project-thumbnail-short {
   background: rgba(255, 240, 0, 0.4);
+  overflow: hidden; }
+
+.project-thumbnail {
   height: 60px;
-  overflow: hidden;
   margin-top: 1em; }
+
+.project-thumbnail-short {
+  font-size: 1.7em;
+  height: 30px;
+  margin-top: 0; }
+
+@media only screen and (min-width: 45em) {
+  .project-thumbnail-short {
+    margin-top: 0.67em; } }
+.top-bottom-borders {
+  margin-top: 1em;
+  border-bottom: 1px solid #363636;
+  border-top: 1px solid #363636; }
 
 .txt-muted {
   opacity: .6; }

@@ -1,20 +1,11 @@
-<nav>
-    <ul>
-        <li><a href="{{ site.baseurl | split:'/' | join:'/' | append:'/'  }}">About</a></li>
-        <li><a href="">Process</a></li>
-        {% if site.categories.project %}
-        <li>Projects
-            <ul>
-                {% for post in site.categories.project %}
-                <li itemscope itemtype="http://schema.org/BlogPosting">
-                    <a href="{{ site.baseurl }}{{ post.url }}" itemprop="url">
-                    {{ post.title }}
-                </a>
-                </li>
-                {% endfor %}
-            </ul>
-        </li>
-        {% endif %}
-        <li><a href="">Ideas</a></li>
-    </ul>
-</nav>
+<div class="row">
+    <div class="col-10">
+        <ul class="nav-horizontal-list">
+            <li>Jump to:</li>
+            <li><a href="#philosophy">Philosophy</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <!-- <li><a href="#process">Process</a></li> -->
+            <li><a href="#about">About</a></li>
+        </ul>
+    </div>
+</div>
