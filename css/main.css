@@ -370,6 +370,9 @@ html, body {
   *::after, *::before {
     box-sizing: border-box; }
 
+main {
+  margin-bottom: 2.2em; }
+
 /*
 main{
   @media only screen and (min-width: $breakpoint-large) {
@@ -516,6 +519,10 @@ h2 {
 h3 {
   font-size: 1.2em;
   margin: .7em 0; }
+
+h4 {
+  font-weight: bold;
+  opacity: .6; }
 
 .no-top-margin {
   margin-top: 0; }

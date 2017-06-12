@@ -7,8 +7,8 @@ description: "This is the portfolio of Hannah Deering, a UX designer at Workiva.
 # Your name.
 author: "Hannah Deering"
 
-url: "http://hannahd.github.io"
-#url: "http://127.0.0.1:4000"
+#url: "http://hannahd.github.io"
+url: "http://127.0.0.1:4000/"
 baseurl: ""
 
 # Social Accounts (mine, as placeholders)
@@ -25,6 +25,6 @@ ga_tracking_id: UA-55586728-1
 
 # Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
 markdown: kramdown
-permalink: pretty
+permalink: /:categories/:title.html
 
 exclude: [vendor]
