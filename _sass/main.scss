@@ -63,6 +63,7 @@ h2{
   font-size: 1.5em;
   margin-bottom:1em;
   line-height: 1em;
+
 }
 
 h4{
@@ -99,7 +100,7 @@ a:hover{
 .img-banner{
   margin:0 -60px;
   background:url('/img/wdeskbg.png');
-  background-size: 100%;
+  background-size: 45em;
   height:211px;
   padding:20px 60px;
   box-sizing: border-box;
@@ -111,6 +112,22 @@ a:hover{
     opacity:.7;
     margin-top: 160px;
   }
+}
+
+.speaker-image{
+  background: url('/img/hdspeaker.png');
+  background-size: 45em;
+  background-repeat: no-repeat;
+  margin: 0 -60px -120px;
+  background-clip: border-box;
+  border-radius: 8px 8px 0 0;
+  height: 300px;
+  opacity: .6;
+  z-index: -1;
+}
+.speaker h2{
+  position: relative;
+  z-index:1
 }
 
 
