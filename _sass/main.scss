@@ -19,7 +19,6 @@ body{
   margin-top:5%;
   color: $font-color;
   @include gradient(top, $background-gradient);
-  font-family: Archivo-Regular;
   font-size: 18px;
   text-align: left;
   line-height: 1.4em;
