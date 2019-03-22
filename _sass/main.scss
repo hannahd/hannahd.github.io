@@ -1,7 +1,7 @@
 $link-color: #0D7AFF;
 $accent-color: rgba( #FFFFFF , .8 );
 $background-start-color: #3E3342;
-$background-end-color: #718F99;
+$background-end-color: #4A8CA2;
 $background-gradient: $background-start-color, $background-end-color;
 $font-color: #FFFFFF;
 $accent-font-color: $background-start-color;
@@ -37,6 +37,10 @@ section.accented{
   color: $accent-font-color;
 
   box-shadow: 0 2px 40px 0 rgba(0,0,0,0.50);
+}
+
+section.bump-up{
+  padding-top:0;
 }
 
 section:last-child{

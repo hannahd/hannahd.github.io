@@ -1,6 +1,4 @@
-Last Updated April 30, 2017
+## 100 Podcasts
+Challenge to try at least 2 new podcast a week for all 2019.
 
-### Technology Used
-- [Jekyll](http://jekyllrb.com)
-- [SASS](http://sass-lang.com/)
-- [Font Awesome](http://fontawesome.io/)
+Want to start your own list? Message me on Twitter [@hannahpixels](https://twitter.com/hannahpixels) or fork this repo on [GitHub](https://github.com/hannahd/52podcasts).
