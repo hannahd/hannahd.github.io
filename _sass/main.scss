@@ -139,6 +139,10 @@ a:hover{
   section.accented{
       border-radius: 0;
     }
+    section{
+        color: $font-color;
+        padding: 35px 30px;
+    }
 
 }
 @media (max-width: 320px) {
