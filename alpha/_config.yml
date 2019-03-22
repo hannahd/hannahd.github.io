@@ -2,8 +2,8 @@ title: Hannah Deering
 email: ux.hannahd@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   UX design leader, prototyper & speaker
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/alpha" # the subpath of your site, e.g. /blog
+url: "https://hannahd.github.io/alpha/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hannahpixels
 github_username:  hannahd
 
