@@ -359,6 +359,7 @@ body {
   font-family: 'Archivo', "Helvetica Neue", Arial, sans-serif;
   margin-top: 5%;
   color: #FFFFFF;
+  background: #3E3342;
   background: -webkit-linear-gradient(top, #3E3342, #4A8CA2);
   background: -moz-linear-gradient(top, #3E3342, #4A8CA2);
   background: -o-linear-gradient(top, #3E3342, #4A8CA2);
@@ -369,7 +370,8 @@ body {
 
 section {
   padding: 65px 60px;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  overflow: hidden; }
 
 section.accented {
   background-color: rgba(255, 255, 255, 0.8);
